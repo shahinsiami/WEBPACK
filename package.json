@@ -15,7 +15,8 @@
   },
 
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode development"
+    "build": "webpack --config webpack.config.js --mode development",
+    "watch": "webpack --watch --progress  --mode development"
   },
   "author": "shahinsiami",
   "license": "ISC"

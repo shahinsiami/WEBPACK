@@ -2,7 +2,7 @@ const path = require('path');
 
 
 module.exports = {
-
+    watch: true,
     entry: {
         boundle: path.resolve(__dirname,'src/js/script.js'),
     },
